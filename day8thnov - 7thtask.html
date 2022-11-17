@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nov 7th task</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<style>
+div.container{
+   display: flex;
+   flex-direction: column;
+   min-height:auto ;
+     background-color: rgb(222, 44, 159); 
+    margin: 40px;
+    align-items: center;
+    
+   
+}
+.container1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: brown;
+    
+    margin: 20px;
+    min-width: auto;
+}
+.box{
+    margin: 50px;
+    min-height: 150px;
+    min-width: 150px;
+   border: 3px solid black;
+    text-align: center;
+    color: white;
+}
+
+
+input{
+    margin-top:20px ;
+width: 400px;
+height: 40px;
+text-align: center;
+border-radius: 20PX;
+}
+.box1{
+     
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    
+}
+p{
+    color: black;
+    font-size: 10px;
+}
+.box2{
+    /* background-color: rgb(34, 88, 135); */
+    height: 100px; 
+    width: 100px;
+    margin: 5px;
+    margin-top: 10px;
+   
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.para{
+    color: white;
+    font-size: 15px;
+}
+.para1{
+    color: white;
+    font-size: 10px;
+}
+button{
+    border-color: yellowgreen;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+img{
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+</style>
+<body>
+   
+   <div class="container container-md-3 container-lg-2 ">
+    <input  type="text" placeholder="SEARCH EVENTS">
+ 
+    <div class=" col-md-12 container1 container-md-12 container-lg-4">
+    <div class="box container-md-12 container-lg-4 ">EVENT 1
+     <div class="  inside ">   <div class="box1"> <img src="1.jpg" alt=""></div> 
+        <div class="box2 "><p class="para">23-may-2022 </p> <p class="para1">available seats-23</p>  <button>Book Now</button></div></div>
+    </div>
+    <div class="  box container-md-12 container-lg-4 ">EVENT 2
+        <div class="inside">    <div class="box1"> <img src="2.jpg" alt=""></div><div class="box2"><p class="para">23-may-2022 </p>  <p class="para1">available seats-23</p><button>Book Now</button></div> 
+
+        </div>
+
+    </div>
+    <div class="box container-md-12 container-lg-4 ">EVENT 3
+        <div class="inside">  <div class="box1"> <img src="3.jpeg" alt=""></div><div class="box2">  <p class="para">23-may-2022 </p> <p class="para1">available seats-00</p> <button>Sold out</button> </div>
+
+        </div>
+    </div>
+    <div class="box container-md-12 container-lg-4">EVENT 4
+        <div class="inside">  <div class="box1"> <img src="4.jpeg" alt=""></div><div class="box2"><p class="para">23-may-2022 </p>   <p class="para1">available seats-23</p><button>Book Now</button> </div> 
+
+        </div>
+    </div>
+    <div class="box container-md-12 container-lg-4 ">EVENT 5
+        <div class="inside">  <div class="box1"> <img src="5.jpg" alt=""></div><div class="box2"> <p class="para">23-may-2022 </p>  <p class="para1">available seats-23</p><button>Book Now</button> </div>
+
+        </div>
+    </div>
+    <div class="box container-md-12 container-lg-4">EVENT 6
+        <div class="inside">    <div class="box1"> <img src="6.jpg" alt=""></div><div class="box2"><p class="para">23-may-2022 </p>  <p class="para1">available seats-23</p><button>Book Now</button> </div>
+
+        </div>
+    </div>
+</div>
+   </div>
+
+</body>
+</html>
